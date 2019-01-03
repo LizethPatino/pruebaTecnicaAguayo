@@ -1,0 +1,328 @@
+                @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+                body {
+                    background: #FFFFFA;
+                }
+                
+                header {
+                    width: 100%;
+                }
+                
+                header nav {
+                    font-family: 'Montserrat', sans-serif;
+                    width: 100%;
+                    background: #000;
+                }
+                
+                .principal {
+                    font-weight: bold;
+                    color: #FE7676;
+                }
+                
+                .menu_bar {
+                    display: none;
+                }
+                
+                header nav ul {
+                    overflow: hidden;
+                    list-style: none;
+                }
+                
+                header nav ul li {
+                    float: left;
+                }
+                
+                header nav ul li a {
+                    color: #fff;
+                    padding: 20px;
+                    display: block;
+                    text-decoration: none;
+                }
+                
+                header nav ul li a:hover {
+                    background: #544444;
+                }
+                
+                @media screen and (max-width:800px) {
+                    header nav {
+                        z-index: 1;
+                        width: 80%;
+                        height: 100%;
+                        left: -100%;
+                        margin: 0;
+                        position: fixed;
+                    }
+                    header nav ul li {
+                        display: block;
+                        float: none;
+                        border-bottom: 1px solid rgba(255, 255, 255, .3);
+                    }
+                    .menu_bar {
+                        display: block;
+                        width: 100%;
+                        background: #ccc;
+                    }
+                    .menu_bar .bt-menu {
+                        display: block;
+                        padding: 20px;
+                        background: #000;
+                        color: #fff;
+                        text-decoration: none;
+                        font-weight: bold;
+                        font-size: 25px;
+                        -webkit-box-sizing: border-box;
+                        -moz-box-sizing: border-box;
+                        box-sizing: border-box;
+                        z-index: 1;
+                    }
+                    .menu_bar span {
+                        float: right;
+                        font-size: 40px;
+                    }
+                }
+                
+                a[class*="fontawesome-"]:before,
+                span[class*="fontawesome-"]:before {
+                    display: block;
+                    font-family: 'FontAwesome', sans-serif;
+                    -webkit-font-smoothing: antialiased;
+                }
+                /* ---------- GENERAL ---------- */
+                
+                body {
+                    background: #fff;
+                    font: 87.5%/1.5em 'Open Sans', sans-serif;
+                    margin: 0;
+                }
+                
+                a {
+                    text-decoration: none;
+                }
+                
+                button {
+                    -webkit-appearance: button;
+                    background: transparent;
+                    border: 0;
+                    cursor: pointer;
+                    font-family: inherit;
+                    font-size: 100%;
+                    line-height: inherit;
+                    margin: 0;
+                    padding: 0;
+                    text-transform: none;
+                }
+                
+                button::-moz-focus-inner {
+                    border: 0;
+                    padding: 0;
+                }
+                
+                fieldset {
+                    border: 0;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                input {
+                    border: 0;
+                    font-family: inherit;
+                    font-size: 100%;
+                    line-height: inherit;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                input:focus {
+                    outline: none;
+                }
+                
+                input[type="search"] {
+                    -webkit-appearance: textfield;
+                    -webkit-box-sizing: content-box;
+                    -moz-box-sizing: content-box;
+                    box-sizing: content-box;
+                }
+                
+                input[type="search"]::-webkit-search-cancel-button,
+                input[type="search"]::-webkit-search-decoration {
+                    -webkit-appearance: none;
+                }
+                
+                input::-moz-focus-inner {
+                    border: 0;
+                    padding: 0;
+                }
+                
+                ul {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                .derecha {
+                    position: relative;
+                    margin-top: 12px!important;
+                    left: 550px;
+                }
+                
+                .toolbar input[type="search"] {
+                    background: #fff;
+                    color: #000;
+                    display: block;
+                    padding: .5em 1em;
+                    position: relative;
+                }
+                
+                .toolbar input[type="search"] {
+                    height: 21px;
+                    width: 177px;
+                    border-radius: 5px;
+                }
+                
+                .toolbar input[type="search"]::-webkit-input-placeholder {
+                    color: #000;
+                }
+                
+                .toolbar input[type="search"]::-moz-placeholder {
+                    color: #000;
+                    opacity: 1;
+                }
+                
+                .toolbar input[type="search"]:-moz-placeholder {
+                    color: #000;
+                    opacity: 1;
+                }
+                
+                .toolbar input[type="search"]:-ms-input-placeholder {
+                    color: #000;
+                }
+                
+                img {
+                    width: 100%;
+                }
+                
+                .contenedor {
+                    position: relative;
+                    text-align: left;
+                }
+                
+                .texto-encima {
+                    font-family: 'Montserrat', sans-serif;
+                    position: absolute;
+                    top: 167px;
+                    left: 70px;
+                    font-size: 4vw;
+                }
+                
+                @media screen and (max-width: 480px) {
+                    .texto-encima {
+                        font-family: 'Montserrat', sans-serif;
+                        position: absolute;
+                        font-weight: bold;
+                        top: 11px;
+                        left: 30px;
+                        font-size: 80%;
+                    }
+                }
+                
+                .recien {
+                    font-size: 5vw;
+                    color: #FE7676;
+                }
+                
+                .llegados {
+                    font-size: 5vw;
+                    color: #000;
+                }
+                
+                .tituloTienda {
+                    font-family: 'Montserrat', sans-serif;
+                    margin-top: 7vw;
+                    text-align: center;
+                }
+                
+                .contenido {
+                    font-size: 1.8vw;
+                }
+                
+                .flex-container {
+                    list-style-type: none;
+                    margin: 20px auto;
+                    padding: 0;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-around;
+                }
+                
+                .item {
+                    height: 400px;
+                    width: 350px;
+                    font-size: 16px;
+                    /* border: 2px solid #000;*/
+                    color: #000;
+                    text-align: center;
+                    margin: 38px 32px 169px;
+                }
+                
+                .item img {
+                    width: 64%;
+                }
+                
+                .tienda {
+                    font-family: 'Montserrat', sans-serif;
+                }
+                
+                .textos {
+                    position: relative;
+                    top: 10px;
+                    left: 62px;
+                    text-align: left;
+                    font-weight: bold;
+                }
+                
+                .precio {
+                    font-family: 'Roboto', sans-serif;
+                    text-align: right;
+                }
+                
+                .talla {
+                    position: relative;
+                    left: 90px;
+                    bottom: 20px;
+                    text-align: right;
+                    color: #fff;
+                    background: #000;
+                    border-radius: 50px;
+                    font-weight: bold;
+                    font-size: 15px;
+                    height: 100px;
+                    border: 12px solid #000;
+                }
+                
+                .marca {
+                    position: relative;
+                    top: 10px;
+                    left: 62px;
+                    text-align: left;
+                    font-size: 13px;
+                }
+                
+                .precios {
+                    position: relative;
+                    right: 58px;
+                    bottom: 20px;
+                    text-align: right;
+                    border-radius: 50px;
+                    font-size: 15px;
+                }
+                
+                .imgRedonda {
+                    width: 60px!important;
+                    height: 60px;
+                    border-radius: 30px;
+                }
+                
+                .icon-menu:before {
+                    content: "\e9bd";
+                    position: relative;
+                    bottom: 9px!important;
+                }

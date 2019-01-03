@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <title>Titulo de la web</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/a61b1aa3fa/UntitledProject/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>Tienda</a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a class="principal" href="#">SHOP</a></li>
+                <li><a href="#">INSTAGRAM</a></li>
+                <li><a href="#">CLOSET ROOM</a></li>
+                <li><a href="#">VENDEDORAS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <ul class="toolbar clearfix derecha">
+                    <li><input type="search" id="search" placeholder="¿Qué estas buscando?"><span class="fontawesome-search"></span></li>
+                </ul>
+        </nav>
+    </header>
+    <section class="contenedor">
+        <img src="assets/img/bitmap-banner.png" />
+        <div class="texto-encima">
+            TE REGALAMOS<br><br>EN TU PRIMERA<br><br> COMPRA
+    </section>
+    <section class="tituloTienda">
+        <h1> <span class="recien">RECIEN </span> <span class="llegados">LLEGADOS</span></h1>
+        <p class="contenido">LO ÚLTIMO DE NUESTRA TIENDA</p>
+    </section>
+    <section>
+        <ul class="flex-container">
+            <li class="item" id="item1"><img src="assets/img/p1.png" /><br>
+                <div class="textos">Sandalias de Cuero <br>y Tachas Saville Row</div>
+                <span class="talla">XS</span>
+                <hr>
+                <div class="marca"> Stradivarius & Zara <br>Home Juntos</div>
+                <div class="precios">$ 40.000</div>
+                <hr>
+                <img src='assets/img/profile.png' class='imgRedonda' /> </li>
+            <li class="item" id="item2"><img src="assets/img/p2.png" />
+                <div class="textos">Sandalias de Cuero <br>y Tachas Saville Row</div>
+                <span class="talla">XS</span>
+                <hr>
+                <div class="marca"> Stradivarius & Zara <br>Home Juntos</div>
+                <div class="precios">$ 40.000</div>
+                <hr>
+                <img src='assets/img/profile.png' class='imgRedonda' /></li>
+            <li class="item" id="item3"><img src="assets/img/p3.png" />
+                <div class="textos">Sandalias de Cuero <br>y Tachas Saville Row</div>
+                <span class="talla">XS</span>
+                <hr>
+                <div class="marca"> Stradivarius & Zara <br>Home Juntos</div>
+                <div class="precios">$ 40.000</div>
+                <hr>
+                <img src='assets/img/profile.png' class='imgRedonda' /></li>
+            <li class="item" id="item4"><img src="assets/img/p4.png" />
+                <div class="textos">Sandalias de Cuero <br>y Tachas Saville Row</div>
+                <span class="talla">XS</span>
+                <hr>
+                <div class="marca"> Stradivarius & Zara <br>Home Juntos</div>
+                <div class="precios">$ 40.000</div>
+                <hr>
+                <img src='assets/img/profile.png' class='imgRedonda' /></li>
+            <li class="item" id="item5"><img src="assets/img/p5.png" />
+                <div class="textos">Sandalias de Cuero <br>y Tachas Saville Row</div>
+                <span class="talla">XS</span>
+                <hr>
+                <div class="marca"> Stradivarius & Zara <br>Home Juntos</div>
+                <div class="precios">$ 40.000</div>
+                <hr>
+                <img src='assets/img/profile.png' class='imgRedonda' /></li>
+            <li class="item" id="item6"><img src="assets/img/p6.png" />
+                <div class="textos">Sandalias de Cuero <br>y Tachas Saville Row</div>
+                <span class="talla">XS</span>
+                <hr>
+                <div class="marca"> Stradivarius & Zara <br>Home Juntos</div>
+                <div class="precios">$ 40.000</div>
+                <hr>
+                <img src='assets/img/profile.png' class='imgRedonda' /></li>
+        </ul>
+    </section>
+    <script>
+        $(document).ready(main);
+
+        var contador = 1;
+
+        function main() {
+            $('.menu_bar').click(function() {
+                // $('nav').toggle(); 
+
+                if (contador == 1) {
+                    $('nav').animate({
+                        left: '0'
+                    });
+                    contador = 0;
+                } else {
+                    contador = 1;
+                    $('nav').animate({
+                        left: '-100%'
+                    });
+                }
+
+            });
+
+        };
+    </script>
+</body>
+
+</html>
